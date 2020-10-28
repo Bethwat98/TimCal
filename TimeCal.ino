@@ -1,4 +1,4 @@
-#define debug = true;
+//#define debug = true;
 
 const int secinhr = 3600;
 const int secinmin = 60;
@@ -105,23 +105,7 @@ void printend(int endtime){
     Serial.println(" Secs");
   
 }
-/*
-int runcal(){
-  int y;
-  do{
-      y = userInput();}
-    while (y < 0 || y > 1);
-}
 
-void test (int y){
-  if (y=1){
-    cal();
-  }else{
-    Serial.println("Thank you for using me! Bye :)");
-  }
-    
-}
-*/
 void setup() {
   Serial.begin(9600);
   cal();
